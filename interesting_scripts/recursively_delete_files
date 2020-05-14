@@ -1,0 +1,19 @@
+#!/bin/bash
+confirm() {
+    echo -n "${1} ? abs yes or no? "
+    read REPLY
+    # checks if the reply is exactly "abs yes" and deletes only then !
+    case $REPLY in
+        "abs yes") return 0 ;;
+        *) return 1 ;;        
+    esac
+}
+
+recursively_delete_only_files() {
+    # it calls the function confirm and if confirm returns true then execute
+    if confirm "Delete all files under $(pwd)"
+    then
+	echo -n "all (sub-directory)files under $(pwd) have been deleted""
+        find . ! -type d -exec rm '{}' \; 
+    fi 
+}
