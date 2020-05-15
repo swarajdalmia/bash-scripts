@@ -1,6 +1,6 @@
 # Learning Bash Scripting
 
-The tasks are mostly taken from [here](https://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/writingscripts.html). 
+The tasks are mostly taken from [here](https://www.linuxtopia.org/online_books/advanced_bash_scripting_guide/writingscripts.html).  This repositiory contains some the task descriptions and scripts used for practise, that i'm using to improve my skills in bash scripting. 
 
 ### rec_list 
 Perform a recursive directory listing on the current directory and save the information to a file. Compress the file, and save the file, in a directory which is taken as input from the user.
