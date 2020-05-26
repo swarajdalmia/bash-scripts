@@ -17,4 +17,5 @@ Write a script that echoes itself to stdout, but backwards.
 ### backup
 Archive as a "tarball" (\*.tar.gz file) all the files in your home directory tree (/home/your-name) that have been modified in the last 24 hours.
 
-
+### primes
+Print (to stdout) all prime numbers between 60000 and 63000. The output should be nicely formatted in columns (hint: use printf).
